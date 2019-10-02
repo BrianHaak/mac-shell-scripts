@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# For deleting folders named bin or obj
+# 1. set constrainedPath variable below to parent folder of projets
+# 2. Either cd to folder, or pass folder location into script as an argument
+# 3. run script
+#
 # source: https://www.joesauve.com/remove-obj-and-bin-folders-via-os-x-finder/
 
 constrainedPath="$HOME/Code"
