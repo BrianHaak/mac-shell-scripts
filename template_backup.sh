@@ -18,10 +18,10 @@ datetime=`date +%F-%H%M`
 if [ -z "$file" ]
 then 
 # no file indicated
-tar -zcf $dest/$datetime.tar.gz $source
+tar -zcf "$dest/$datetime.tar.gz" "$source"
 else
 # only back up file
-tar -zcf $dest/$datetime-$file.tar.gz $source/$file
+tar -zcf "$dest/$datetime-$file.tar.gz" "$source/$file"
 fi
 
 
