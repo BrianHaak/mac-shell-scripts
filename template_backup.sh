@@ -25,10 +25,11 @@ tar -zcf "$dest/$datetime-$file.tar.gz" "$source/$file"
 fi
 
 
-if ["$delete"]
+if [ "$delete" ]
 then 
 # delete old backups
 # delete any backups more than 30 days old, except for the last backup per month for last 12 months
 # TODO: implement
+echo "delete not yet implemented"
 
 fi
